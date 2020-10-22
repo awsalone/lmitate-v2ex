@@ -1,0 +1,29 @@
+.sep20::before {
+  height: 20px;
+  display: block;
+  content: '';
+}
+
+.sep5::before {
+  height: 5px;
+  display: block;
+  content: '';
+}
+.sep10::before {
+  height: 10px;
+  display: block;
+  content: '';
+}
+
+.clearfix::after,
+.clearfix::before {
+  content: '';
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+
+.fade {
+  color: #ccc
+}
